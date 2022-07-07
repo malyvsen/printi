@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/printi/static/css/main.1b5689ad.css",
+    "main.js": "/printi/static/js/main.0d52150f.js",
+    "index.html": "/printi/index.html",
+    "main.1b5689ad.css.map": "/printi/static/css/main.1b5689ad.css.map",
+    "main.0d52150f.js.map": "/printi/static/js/main.0d52150f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b5689ad.css",
+    "static/js/main.0d52150f.js"
+  ]
+}
