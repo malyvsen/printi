@@ -2,12 +2,12 @@ import "./Printicam.css";
 import React from "react";
 import Webcam from "react-webcam";
 
-function Printicam() {
+function Printicam({ setImageSrc }) {
   const webcamRef = React.useRef(null);
   const capture = React.useCallback(() => {
     const imageSrc = webcamRef.current.getScreenshot();
-    console.log(imageSrc);
-  }, [webcamRef]);
+    setImageSrc(imageSrc);
+  }, [setImageSrc, webcamRef]);
 
   return (
     <div>
@@ -17,7 +17,6 @@ function Printicam() {
         ref={webcamRef}
         screenshotFormat="image/jpeg"
         onClick={capture}
-        onPlay={capture}
       />
     </div>
   );
