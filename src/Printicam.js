@@ -1,5 +1,6 @@
 import "./Printicam.css";
 import React from "react";
+import useInterval from "use-interval";
 import Webcam from "react-webcam";
 
 function Printicam({ setImageSrc }) {
@@ -8,6 +9,7 @@ function Printicam({ setImageSrc }) {
     const imageSrc = webcamRef.current.getScreenshot();
     setImageSrc(imageSrc);
   }, [setImageSrc, webcamRef]);
+  useInterval(capture, 40);
 
   return (
     <div>
@@ -16,7 +18,6 @@ function Printicam({ setImageSrc }) {
         audio={false}
         ref={webcamRef}
         screenshotFormat="image/jpeg"
-        onClick={capture}
       />
     </div>
   );
