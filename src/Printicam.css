@@ -1,0 +1,6 @@
+.Printicam {
+  min-width: max(10vmin, 384px);
+  max-width: 40vmin;
+  min-height: 10vmin;
+  max-height: 40vmin;
+}

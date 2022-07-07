@@ -1,10 +1,11 @@
 import "./App.css";
+import Printicam from "./Printicam";
 
 function App() {
   return (
     <div className="App">
       <h1 className="App-logo">printi</h1>
-      <p>Welcome to the new printi experience!</p>
+      <Printicam />
     </div>
   );
 }
