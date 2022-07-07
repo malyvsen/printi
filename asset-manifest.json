@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/printi/static/css/main.b3bf7f4e.css",
-    "main.js": "/printi/static/js/main.d20c1c7e.js",
+    "main.js": "/printi/static/js/main.c6e3e1c3.js",
     "index.html": "/printi/index.html",
     "main.b3bf7f4e.css.map": "/printi/static/css/main.b3bf7f4e.css.map",
-    "main.d20c1c7e.js.map": "/printi/static/js/main.d20c1c7e.js.map"
+    "main.c6e3e1c3.js.map": "/printi/static/js/main.c6e3e1c3.js.map"
   },
   "entrypoints": [
     "static/css/main.b3bf7f4e.css",
-    "static/js/main.d20c1c7e.js"
+    "static/js/main.c6e3e1c3.js"
   ]
 }
